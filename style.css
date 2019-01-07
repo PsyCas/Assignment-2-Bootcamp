@@ -1,0 +1,44 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: rgb(73, 53, 160);
+    text-decoration: none;
+}
+
+/*a:hover {
+    cursor: pointer;
+}*/
+
+#header {
+    background-color: rgba(243, 230, 202, 0.514);
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+#head-text {
+    font-size: 3vw;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.task-row {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.task-column {
+    display: flex;
+    border: 3px solid black;
+    padding: 25px;
+}
+
+.number {
+    flex: 1;
+}
+
+.description {
+    flex: 2;
+}
