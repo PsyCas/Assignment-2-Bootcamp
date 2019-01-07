@@ -3,24 +3,32 @@ body {
 }
 
 a {
-    color: rgb(73, 53, 160);
+    color: rgb(206, 156, 50);
     text-decoration: none;
 }
 
-/*a:hover {
-    cursor: pointer;
-}*/
-
-#header {
-    background-color: rgba(243, 230, 202, 0.514);
-    padding-bottom: 25px;
-    width: 100%;
+a>p {
+    color: white;
 }
 
-#head-text {
+#header {
+    display: flex;
+    background-color: rgb(210, 105, 30);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.head-text {
+    color: white;
     font-size: 3vw;
     padding-left: 50px;
-    padding-top: 25px;
+    text-align: left;
+}
+
+.link-text {
+    padding-right: 50px;
+    padding-top: 30px;
+    font-size: 1.6vw;
 }
 
 .task-row {
@@ -31,7 +39,7 @@ a {
 
 .task-column {
     display: flex;
-    border: 3px solid black;
+    border: 3px solid #d2691e;
     padding: 25px;
 }
 
