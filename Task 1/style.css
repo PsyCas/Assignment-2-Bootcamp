@@ -20,6 +20,7 @@ body{
     background-color: rgb(255, 195, 127);
     border-radius: 10px;
     color: #fff;
+    outline: none;
 }
 
 .response-wrapper{
