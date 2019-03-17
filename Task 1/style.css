@@ -2,6 +2,10 @@ body{
     background-color: #3a3939;
 }
 
+button:hover{
+    cursor: pointer;   
+}
+
 
 .button-wrapper{
 
